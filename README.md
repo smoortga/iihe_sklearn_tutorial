@@ -14,9 +14,9 @@ For Mac: <a href="https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.
 
 Once you downloaded the installer, open a terminal and move to the directory where the .sh file is located. Then do the following (note that this is for the Anaconda installation with python 2.7, 64-bit. If you installed another release, replace the name of the .sh file accordingly):
 
-For Linux: `bash Anaconda2-2.4.0-MacOSX-x86_64.sh`
+For Linux: `bash Anaconda2-2.4.0-Linux-x86_64.sh`
 
-For Mac: `bash Anaconda2-2.4.0-Linux-x86_64.sh`
+For Mac: `bash Anaconda2-2.4.0-MacOSX-x86_64.sh`
 
 After the installation is finished, there should be a new directory in your home folder named anaconda(2). Test if Anaconda is indeed installed by typing `conda` in your command line. If this does not say something like `conda: command not found`, you are good. 
 
