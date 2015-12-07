@@ -18,7 +18,7 @@ For Linux: `bash Anaconda2-2.4.0-MacOSX-x86_64.sh`
 
 For Mac: `bash Anaconda2-2.4.0-Linux-x86_64.sh`
 
-After the installation is finished, there should a new directory in your home folder named anaconda(2). Test if Anaconda is indeed installed by typing `conda` in your command line. If this does not say something like `conda: command not found`, you are good. 
+After the installation is finished, there should be a new directory in your home folder named anaconda(2). Test if Anaconda is indeed installed by typing `conda` in your command line. If this does not say something like `conda: command not found`, you are good. 
 
 *NOTE: you might need to restart your terminal after the installation, since anaconda adds a line to your .bash_profile that sets the correct PATH. If this is not the case, please set: `PATH="/YOUR/HOME/DIRECTORY/anaconda(2)/bin:$PATH`*
 
@@ -31,6 +31,16 @@ You can test if this succeeded by opening python (`python`) and importing the pa
 *NOTE: If you already have a python distribution installed locally on your laptop, it might be that you need to activate the Anaconda environment:*
 
 `source activate /YOUR/HOME/DIRECTORY/anaconda(2)`
+
+** You can now clone this git repository to your laptop (locally) and run the notebook:
+
+`git clone https://github.com/smoortga/iihe_sklearn_tutorial.git`
+
+`cd iihe_sklearn_tutorial`
+
+`jupyter notebook`
+
+This will open in your default browser a window with the content of this repository. Click on the CharmTagger_SkLearn.ipynb file to open the tutorial.
 
 ## Extension 1: get the latest developers version of Scikit-Learn
 Anaconda comes with the latest stable version of Scikit-learn (version 0.17 at this time of writing). However some features in the tutorial are only available in the developers version (0.18dev). Therefore you might want to download this latest version from github and install it:
