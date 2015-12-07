@@ -72,4 +72,4 @@ Once you have a local installation or ROOT, do the following:
 
 EXTRA: you can also download *rootpy*, but this is not needed in this tutorial:
 
-`conda install --channel https://conda.anaconda.org/NLeSC root_numpy`
+`conda install --channel https://conda.anaconda.org/NLeSC rootpy`
