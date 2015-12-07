@@ -22,7 +22,7 @@ After the installation is finished, there should be a new directory in your home
 
 *NOTE: you might need to restart your terminal after the installation, since anaconda adds a line to your .bash_profile that sets the correct PATH. If this is not the case, please set: `PATH="/YOUR/HOME/DIRECTORY/anaconda(2)/bin:$PATH`*
 
-Finally you can install the necessary scientific python packages and Jupyter bu doing:
+Finally you can install the necessary scientific python packages and Jupyter by doing:
 
 `conda install numpy scipy scikit-learn jupyter matplotlib`
 
