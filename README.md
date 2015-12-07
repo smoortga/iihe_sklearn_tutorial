@@ -32,7 +32,7 @@ You can test if this succeeded by opening python (`python`) and importing the pa
 
 `source activate /YOUR/HOME/DIRECTORY/anaconda(2)`
 
-** You can now clone this git repository to your laptop (locally) and run the notebook:
+**You can now clone this git repository to your laptop (locally) and run the notebook:**
 
 `git clone https://github.com/smoortga/iihe_sklearn_tutorial.git`
 
