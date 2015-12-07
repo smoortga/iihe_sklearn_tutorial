@@ -39,6 +39,8 @@ def plot_histogram(clf, X, y, subplot=None, show=True):
     
     plt.hist(d[y == 1], bins=20, normed=True, color="b", alpha=0.4,label = 'Charm')
     plt.hist(d[y == 0], bins=20, normed=True, color="r", alpha=0.4,label = 'Light')
+    plt.ylabel("Normalized number of events")
+    plt.xlabel("Discriminator [P(charm)]")
     plt.legend(loc='best')
     
     if show:
