@@ -28,7 +28,7 @@ Finally you can install the necessary scientific python packages and Jupyter bu 
 
 You can test if this succeeded by opening python (`python`) and importing the packages (for example: `import sklearn`).
 
-*NOTE: If you already have a python distribution installed locally on your laptop, it might be that you need to activate the Anaconda environment:
+*NOTE: If you already have a python distribution installed locally on your laptop, it might be that you need to activate the Anaconda environment:*
 
 `source activate /YOUR/HOME/DIRECTORY/anaconda(2)`
 
