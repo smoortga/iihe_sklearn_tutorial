@@ -26,10 +26,31 @@ Finally you can install the necessary scientific python packages and Jupyter bu 
 
 `conda install numpy scipy scikit-learn jupyter matplotlib`
 
-You can test if this succeeded by opening python (`python`) and importing the packages (`import PACKAGENAME`).
+You can test if this succeeded by opening python (`python`) and importing the packages (for example: `import sklearn`).
 
 *NOTE: If you already have a python distribution installed locally on your laptop, it might be that you need to activate the Anaconda environment:
 
 `source activate /YOUR/HOME/DIRECTORY/anaconda(2)`
 
 ## Extension 1: get the latest developers version of Scikit-Learn
+Anaconda comes with the latest stable version of Scikit-learn (version 0.17 at this time of writing). However some features in the tutorial are only available in the developers version (0.18dev). Therefore you might want to install this latest version from github and install it:
+
+`git clone git://github.com/scikit-learn/scikit-learn.git`
+
+`cd scikit-learn`
+
+`python setup.py install`
+
+`make`
+
+`export PYTHONPATH="/DIRECTORY/WHERE/YOU/CLONED/GITREPO/scikit-learn:$PYTHONPATH"` (or put this in your .bash_profile)
+
+You can now test if this worked by doing the following, which should now say something like '0.18.dev0':
+
+`python`
+
+`import sklearn`
+
+`sklearn.__version__`
+
+## Extension 2: Installing root_numpy
