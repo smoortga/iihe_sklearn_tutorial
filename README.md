@@ -66,7 +66,7 @@ You can now test if this worked by doing the following, which should now say som
 ## Extension 2: Installing root_numpy
 In this tutorial (and in most research activities at IIHE) we will work with data that are stored in .root files. In order to read ROOT files within python, you will need the root_numpy package. This of course assumes you have an installation of ROOT locally on your laptop (if not, you can install from [here](https://root.cern.ch/downloading-root)). If you do not wish to do this, the tutorial can also be executed without the ROOT files, as also the numpy-style arrays are stored on this github repository.
 
-Once you have a local installation or ROOT, do the following:
+Once you have a local installation of ROOT, do the following:
 
 `conda install --channel https://conda.anaconda.org/NLeSC root_numpy`
 
