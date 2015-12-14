@@ -3,6 +3,8 @@ Tutorial on scikit-learn given at the IIHE.
 
 The goal of this tutuorial is to introduce you to the [Scikit-Learn](http://scikit-learn.org/stable/) machine learning software and some of its features that can be used in Multivariate Analysis (MVA) techniques. This tutorial uses a charm-tagger as an example to go over some interesting features. The code in this tutorial, together with links to the relevant information, should serve as a basis for your own analysis and can be adapted accordingly.
 
+Slides from Kevins talk can be found [here](http://mon.iihe.ac.be/~kderoove/MachineLearning/MachineLearningInHEP.pdf)
+
 ## Minimal installation
 In order to follow this tutorial, **this minimal installation is required**. The extensions below will allow you to also test specified features that will be revised during the tutorial, but alternatives are in place for those who do not which to (or do not manage to) install these extensions. **This installation should be done locally on your laptop (not on the m-machines for example)**
 
